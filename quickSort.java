@@ -24,8 +24,7 @@ public class QSort {
         if (low >= high){
             return;
         }
-        int mid = (low + high)/2;
-        int pivot = arr[mid];
+        int pivot = arr[low];
         int i = low;
         int j = high;
         while (i <= j){
